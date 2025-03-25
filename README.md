@@ -8,7 +8,9 @@
 
 ##  - Malware_Detecting
 
-![image](https://github.com/user-attachments/assets/6f436a6a-9aa8-43bc-a9c5-009b747f322a)
+![image](https://github.com/user-attachments/assets/6f436a6a-9aa8-43bc-a9c5-009b747f322a) 
+
+© Splunk Inc.
 
 ## What kind of query should be written for these dashboards?
 
@@ -50,6 +52,8 @@ index="main" source="WinEventLog:Microsoft-Windows-Windows Defender/Operational"
 
 ![image](https://github.com/user-attachments/assets/16601aca-55c8-4234-81b4-191ab29d44d2)
 
+© Splunk Inc.
+
 ## What kind of query should be written for these dashboards?
 
 ### Suspicious_Access_by_Host
@@ -78,6 +82,8 @@ index="main" source="WinEventLog:Microsoft-Windows-Windows Defender/Operational"
 ## - Windows_Update_Fail
 
 ![image](https://github.com/user-attachments/assets/f3fc740b-8b7e-42ed-a0be-74779d3aca2d)
+
+© Splunk Inc.
 
 ## What kind of query should be written for these dashboards?
 
@@ -133,6 +139,8 @@ source="WinEventLog:System" "Windows Update"
 
 ![image](https://github.com/user-attachments/assets/0123ea54-6012-4740-bd9f-b54dffba31b9)
 
+© Splunk Inc.
+
 ### Host / Date
 source=* (EventCode=4625 OR EventCode=4624)
 
@@ -162,3 +170,6 @@ source=* (EventCode=4625 OR EventCode=4624)
 | table _time host Failure_Count Success_Count
 
 | sort -_time
+
+### Note
+This content has been prepared for personal learning purposes related to the installation of Splunk software. All screenshots and software are the property of Splunk Inc. This page is not intended for commercial use.
