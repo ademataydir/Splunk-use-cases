@@ -8,7 +8,7 @@
 
 ##  - Malware_Detecting
 
-![image](https://github.com/user-attachments/assets/6f436a6a-9aa8-43bc-a9c5-009b747f322a) 
+![image](https://github.com/user-attachments/assets/217345bd-8a47-4404-b7c3-fa7c97dc7576)
 
 © Splunk Inc.
 
@@ -50,7 +50,7 @@ index="main" source="WinEventLog:Microsoft-Windows-Windows Defender/Operational"
 
 ## - Critical_Folder_Access
 
-![image](https://github.com/user-attachments/assets/16601aca-55c8-4234-81b4-191ab29d44d2)
+![image](https://github.com/user-attachments/assets/137b4a35-a665-466b-9651-b3273b6a920f)
 
 © Splunk Inc.
 
@@ -81,7 +81,7 @@ index="main" source="WinEventLog:Microsoft-Windows-Windows Defender/Operational"
 
 ## - Windows_Update_Fail
 
-![image](https://github.com/user-attachments/assets/f3fc740b-8b7e-42ed-a0be-74779d3aca2d)
+![image](https://github.com/user-attachments/assets/213cb07a-59b6-4ca9-b777-516963aa0e96)
 
 © Splunk Inc.
 
@@ -137,7 +137,7 @@ source="WinEventLog:System" "Windows Update"
 
 ## - Brute_Force
 
-![image](https://github.com/user-attachments/assets/0123ea54-6012-4740-bd9f-b54dffba31b9)
+![image](https://github.com/user-attachments/assets/4f844b57-ce88-4f87-8ab0-ef35ddcb463d)
 
 © Splunk Inc.
 
